@@ -29,8 +29,8 @@ The two SVG illustrations in assets/ were created for this project. Repeated ani
 5. Wait for deployment and open the website link shown by GitHub.
 6. Check every page online. Submit the repository link in Moodle before the deadline. Keep the published website link in this README too.
 
-Repository: https://github.com/dancho-55/assignmentweb6-
-Published website: [paste your GitHub Pages URL]
+Repository: [assignmentweb6-](https://github.com/dancho-55/assignmentweb6-)
+Published website: [Open website](https://dancho-55.github.io/assignmentweb6-/)
 
 ## Alternative: Netlify
 
