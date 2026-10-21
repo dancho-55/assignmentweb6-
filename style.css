@@ -1,0 +1,25 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #f1f4f7; color: #253345; line-height: 1.6; }
+header { background: #315d86; color: white; padding: 22px; text-align: center; }
+h1 { margin: 0; font-size: 28px; }
+header p { margin: 5px 0; }
+nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; padding: 12px; background: #e1e8f0; }
+nav a { padding: 6px 10px; color: #203e5a; }
+nav a[aria-current="page"] { background: white; font-weight: bold; border-radius: 4px; }
+main { max-width: 850px; margin: 24px auto; padding: 0 16px; }
+section { background: white; border: 1px solid #d4dde5; padding: 20px; margin-bottom: 20px; border-radius: 5px; }
+h3 { margin-top: 0; }
+button { padding: 9px 14px; margin: 4px 4px 4px 0; background: #315d86; border: 0; border-radius: 4px; color: white; cursor: pointer; font-size: 14px; }
+button:hover { background: #244767; }
+button:focus-visible, a:focus-visible, input:focus-visible { outline: 3px solid #bd7a00; outline-offset: 3px; }
+img { display: block; max-width: 100%; height: auto; margin-top: 12px; border-radius: 4px; }
+.imageSpace { min-height: 200px; }
+.panel { background: #e9f1f9; padding: 16px; margin-top: 12px; }
+label { display: block; margin-top: 12px; }
+input { width: 100%; max-width: 380px; padding: 10px; border: 1px solid #9aaabb; border-radius: 3px; font-size: 16px; }
+.stage { position: relative; height: 190px; margin-top: 15px; border: 1px dashed #9aaabb; background: #f4f7fa; }
+.box { position: relative; width: 60px; height: 60px; background: #447caf; }
+.question { display: block; text-align: left; width: 100%; margin: 8px 0 0; font-size: 16px; }
+.question[aria-expanded="true"] { background: #244767; }
+.answer { display: none; background: #e9f1f9; padding: 1px 16px; }
+footer { text-align: center; padding: 20px; color: #536273; }
